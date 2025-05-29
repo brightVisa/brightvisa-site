@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - BrightVisa</title>
+    <title>Contact - BrightVisa</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
         header { background-color: #0057a3; color: white; padding: 20px; text-align: center; }
@@ -28,15 +28,19 @@
 </nav>
 <section>
 
-<h2>Welcome to BrightVisa</h2>
-<p>We specialize in providing professional visa services, including tourist and work visa applications to Europe.</p>
-<p><strong>Our Office:</strong><br>
-25 Arst Bata Business Centre, AV My AbdAllah, Marrakech, Morocco<br>
-Postal Code: 40000</p>
-<p><strong>Contact:</strong><br>
-Phone: +212 6 09 73 12 16<br>
-Email: <a href="mailto:BrightVisa.ma@gmail.com">BrightVisa.ma@gmail.com</a><br>
-Website: <a href="http://www.bright-vi.ma" target="_blank">www.bright-vi.ma</a></p>
+<h2>Contact Us</h2>
+<form method="POST" onsubmit="alert('Thank you for contacting us!'); return false;">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required style="width:100%; padding:10px;"><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required style="width:100%; padding:10px;"><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="6" required style="width:100%; padding:10px;"></textarea><br><br>
+
+    <button type="submit" style="padding:10px 20px; background:#0057a3; color:white; border:none;">Send</button>
+</form>
 
 </section>
 <footer>
